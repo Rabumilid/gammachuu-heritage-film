@@ -1,0 +1,194 @@
+{
+  "project_id": "gammachuu-heritage-film",
+  "title": "Murtoo Tokko (One Decision)",
+  "language": "om",
+  "target_duration_s": 90.0,
+  "end_card": {
+    "duration_s": 3.0,
+    "text": "Created with AI | Story of Gammachuu | Narrated in Afaan Oromoo"
+  },
+  "style_block": "Authentic East African documentary cinema still, shot on 35mm film in rural and small-town Ethiopia, warm natural highland sunlight, rich earth tones, natural skin texture, centered composition, no text or watermarks.",
+  "character_sheet": {
+    "protagonist_id": "gammachuu",
+    "description": "Gammachuu, a 38-year-old Ethiopian Oromo man with dark brown skin, short black curly hair, a neatly trimmed short beard, and warm expressive eyes",
+    "seed": 420101,
+    "reference_image": "outputs/images/ref_gammachuu_sheet.png"
+  },
+  "music": {
+    "caption": "Warm acoustic Ethiopian folk underscore, gentle masinko and soft krar plucks with subtle low strings, emotional and hopeful, sparse arrangement leaving space for voiceover, instrumental only",
+    "tempo_bpm": 76,
+    "key": "D minor",
+    "duration_s": 90,
+    "seed": 880101
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "duration_s": 8.84,
+      "shot_size": "Wide establishing shot",
+      "reason": "Establishes Gammachuu's rural Oromo farm life and dawn work ethic before illness.",
+      "narration_om": "Gammachuun guyyaa guyyaan ganama barii ka'ee gara qonnaa isaa deemee hojjechuun jireenya isaa gaggeessaa ture.",
+      "subtitle_en": "Every dawn, Gammachuu woke early\nto work his farm and earn a living.",
+      "image_prompt": "Wide shot of a 38-year-old Ethiopian Oromo farmer in a white handwoven cotton gabi shawl and tunic tilling rich dark highland soil with a traditional Ethiopian wooden ox-drawn plow (maresha) in a sunlit green terraced farm field, rural thatched-roof homesteads and eucalyptus trees behind him at golden sunrise.",
+      "motion_prompt": "Slow gentle dolly forward as Gammachuu walks steadily along the misty path, soft morning mist drifting across the hills.",
+      "ken_burns_preset": "zoom_in_slow",
+      "seed": 1101
+    },
+    {
+      "shot_id": "shot_02",
+      "duration_s": 3.71,
+      "shot_size": "Medium shot",
+      "reason": "Shows the physical toll of illness that stops him from waking early for farm labor.",
+      "narration_om": "Garuu erga dhukkubsatee booda, akka durii ganamaan ka'ee gara qonnaa deemuu hin dandeenye.",
+      "subtitle_en": "After falling ill, he could no longer\nrise early and go to the farm.",
+      "image_prompt": "Medium shot inside a traditional rural Ethiopian mud-and-wood home: the exact same 38-year-old Ethiopian Oromo man with short black curly hair and neatly trimmed short beard, wrapped in a white cotton gabi shawl, sitting on a low wooden stool looking unwell and fatigued with one hand on his chest, soft morning light from an open wooden doorway.",
+      "motion_prompt": "Static locked-off camera, Gammachuu slowly exhales and lowers his gaze, subtle dust motes in soft doorway light.",
+      "ken_burns_preset": "zoom_out_slow",
+      "seed": 1102
+    },
+    {
+      "shot_id": "shot_03",
+      "duration_s": 7.12,
+      "shot_size": "Medium close-up",
+      "reason": "Captures the quiet rainy-day isolation as he realizes his old way of life cannot continue.",
+      "narration_om": "Haala kanaan itti fufuun akka hin danda'amne hubatee, mana taa'ee sagalee bokkaa dhaggeeffachaa,",
+      "subtitle_en": "Realizing he could not go on like this,\nhe sat indoors listening to the rain,",
+      "image_prompt": "Medium close-up of a thoughtful Ethiopian Oromo man in a white cotton gabi shawl sitting beside a rustic wooden shutter window inside an Ethiopian village home, watching heavy rain fall on red highland soil and banana plants outside.",
+      "motion_prompt": "Static camera with rain falling steadily outside the wooden window while Gammachuu watches quietly.",
+      "ken_burns_preset": "pan_right_slow",
+      "seed": 1003
+    },
+    {
+      "shot_id": "shot_04",
+      "duration_s": 3.07,
+      "shot_size": "Close-up",
+      "reason": "Focuses on his deep concern for his children's future during that turning point.",
+      "narration_om": "waa'ee jireenya isaa fi egeree ijoollee isaa gadi fageenyaan yaaduu jalqabe.",
+      "subtitle_en": "and began thinking deeply about his life\nand the future of his children.",
+      "image_prompt": "Close-up portrait of a 38-year-old Ethiopian Oromo man with short black hair and a light beard looking out a rainy window with quiet determination, soft cool overcast light on his face, shallow depth of field.",
+      "motion_prompt": "Gentle slow push-in toward Gammachuu's face as his expression shifts from worry to quiet focus.",
+      "ken_burns_preset": "zoom_in_slow",
+      "seed": 1004
+    },
+    {
+      "shot_id": "shot_05",
+      "duration_s": 5.85,
+      "shot_size": "Insert close-up",
+      "reason": "Shows the literacy taught by his siblings, explaining how he could study a new trade.",
+      "narration_om": "Barumsa idilee argachuu baatus, obboloonni isaa dubbisuu fi barreessuu isa barsiisanii turan.",
+      "subtitle_en": "Though he had no formal schooling,\nhis siblings taught him to read and write.",
+      "image_prompt": "Close-up of an Ethiopian man's hands writing with a ballpoint pen in a worn lined school exercise book on a rough wooden table next to a glowing brass kerosene lantern inside a dimly lit rural Ethiopian home at night.",
+      "motion_prompt": "Fixed overhead-angle camera, his hand writes slowly across the lined page as the warm lantern flame flickers gently.",
+      "ken_burns_preset": "pan_left_slow",
+      "seed": 1005
+    },
+    {
+      "shot_id": "shot_06",
+      "duration_s": 7.39,
+      "shot_size": "Medium close-up",
+      "reason": "Marks the decisive beat when he commits to learning tailoring to transform his life.",
+      "narration_om": "Guyyaa sana murtoo guddaa tokko murteesse: jireenya isaa jijjiiruuf ogummaa huccuu hodhuu barachuu qaba jedhe.",
+      "subtitle_en": "That day he made a major decision:\nhe would learn tailoring to change his life.",
+      "image_prompt": "Medium close-up of a determined 38-year-old Ethiopian Oromo man in a white handwoven gabi shawl standing in the doorway of an Ethiopian highland home as warm golden morning sunbeams break through rain clouds.",
+      "motion_prompt": "Slow push-in as Gammachuu lifts his chin with resolve and warm morning light brightens across his face.",
+      "ken_burns_preset": "zoom_in_slow",
+      "seed": 1006
+    },
+    {
+      "shot_id": "shot_07",
+      "duration_s": 3.81,
+      "shot_size": "Medium two-shot",
+      "reason": "Highlights his wife's Monday morning support preparing homemade bread for his journey to town.",
+      "narration_om": "Wiixata ganama ganama haati warraa isaa daabboo tolchiteef fudhatee gara magaalaa deema ture.",
+      "subtitle_en": "Every Monday morning, his wife packed\nhomemade bread for his trip to town.",
+      "image_prompt": "Medium two-shot in a warm rural Ethiopian kitchen: an Ethiopian woman wearing a white cotton netela scarf with colorful tibeb border handing a round loaf of homemade Ethiopian daabboo bread wrapped in clean cloth to her Oromo husband at dawn.",
+      "motion_prompt": "Gentle pan right as she hands the wrapped bread to Gammachuu, soft morning smoke rising in warm kitchen light.",
+      "ken_burns_preset": "pan_right_slow",
+      "seed": 1007
+    },
+    {
+      "shot_id": "shot_08",
+      "duration_s": 9.1,
+      "shot_size": "Medium shot",
+      "reason": "Establishes the modest morning tea shop routine and financial hardship during his training.",
+      "narration_om": "Guyyaa guyyaan ganama mana shaayii deema, shaayii isaa waliin biskuutii yookiin anbaashaa bitachuuf qarshii hin qabu ture.",
+      "subtitle_en": "Each morning at the tea shop, he could\nnot afford biscuits or anbasha with his tea.",
+      "image_prompt": "Medium shot inside a modest Ethiopian town tea house (mana shaayii): an Ethiopian Oromo man in a simple cotton shirt and gabi shawl sitting alone at a worn wooden table with a small clear glass of hot amber Ethiopian spiced tea in front of him.",
+      "motion_prompt": "Slow gentle push-in toward Gammachuu seated quietly at the wooden café table with his glass of hot tea.",
+      "ken_burns_preset": "zoom_in_slow",
+      "seed": 1008
+    },
+    {
+      "shot_id": "shot_09",
+      "duration_s": 9.81,
+      "shot_size": "Close-up insert",
+      "reason": "Captures the core motif of dignity and unbroken hope—breaking his own packed bread with tea.",
+      "narration_om": "Kanaafuu, daabboo kiisa isaa keessa kaa'atee fudhatee deema, yeroo shaayii dhugu immoo caccabsee shaayii isaa waliin nyaata ture. Garuu abdii hin kutanne.",
+      "subtitle_en": "Instead, he carried bread from home,\nbroke it into his tea, and never lost hope.",
+      "image_prompt": "Close-up of an Ethiopian man's hands on a rustic wooden cafe table breaking small pieces from a homemade loaf of Ethiopian daabboo bread next to a steaming clear glass of hot amber tea and a woven cloth shoulder bag.",
+      "motion_prompt": "Static close-up camera, his hands gently break a piece of bread while faint steam rises from the glass of hot tea.",
+      "ken_burns_preset": "zoom_out_slow",
+      "seed": 1009
+    },
+    {
+      "shot_id": "shot_10",
+      "duration_s": 4.18,
+      "shot_size": "Medium shot",
+      "reason": "Shows his disciplined apprenticeship and launch of his tailoring craft.",
+      "narration_om": "Obsa, kutannoo fi hojii cimaadhaan ogummaa huccuu hodhuu baratee hojii isaa jalqabe.",
+      "subtitle_en": "With patience, grit, and hard work,\nhe mastered tailoring and started his trade.",
+      "image_prompt": "Medium shot inside an Ethiopian tailoring workshop: an Ethiopian Oromo man leaning forward focused at a vintage black cast-iron foot-pedal treadle sewing machine, stitching colorful Ethiopian woven cotton fabric with a yellow measuring tape around his neck.",
+      "motion_prompt": "Slow dolly left as Gammachuu steadily guides the fabric through the sewing machine with focused precision.",
+      "ken_burns_preset": "pan_left_slow",
+      "seed": 1010
+    },
+    {
+      "shot_id": "shot_11",
+      "duration_s": 7.75,
+      "shot_size": "Medium wide shot",
+      "reason": "Demonstrates the milestone of buying a house in town and educating his children.",
+      "narration_om": "Suuta suutaan galii argate, mana bitate, maatii isaa gara magaalaa fidee ijoollee isaa barnoota gaariin barsiise.",
+      "subtitle_en": "Gradually he bought a home in town\nand gave his children a good education.",
+      "image_prompt": "Medium wide shot outside a newly built plastered town house in Ethiopia during golden afternoon sun: an Ethiopian Oromo father and his wife in a white netela shawl smiling proudly beside their two Ethiopian schoolchildren carrying notebooks.",
+      "motion_prompt": "Gentle zoom out as the family stands together outside their new town home in warm golden hour sunlight.",
+      "ken_burns_preset": "zoom_out_slow",
+      "seed": 1011
+    },
+    {
+      "shot_id": "shot_12",
+      "duration_s": 5.14,
+      "shot_size": "Medium close-up",
+      "reason": "Reveals Gammachuu's transformation into a confident, prosperous businessman.",
+      "narration_om": "Har'a Gammachuun mana jireenyaa qofa osoo hin taane, daldalaa milkaa'aa ta'ee,",
+      "subtitle_en": "Today Gammachuu is not only a homeowner,\nbut a successful businessman,",
+      "image_prompt": "Medium close-up portrait of a confident, smiling 38-year-old Ethiopian Oromo businessman wearing a crisp light-blue collared shirt standing inside a bright, well-lit Ethiopian tailoring shop with colorful fabric bolts on shelves behind him.",
+      "motion_prompt": "Slow gentle push-in on Gammachuu smiling with quiet pride inside his bright shop.",
+      "ken_burns_preset": "zoom_in_slow",
+      "seed": 1012
+    },
+    {
+      "shot_id": "shot_13",
+      "duration_s": 4.59,
+      "shot_size": "Wide shot",
+      "reason": "Shows his large shop and the employment opportunities he created for his community.",
+      "narration_om": "suuqii guddaa mataa isaa banatee namoota biroofis carraa hojii uumeera.",
+      "subtitle_en": "running his own large shop and creating\nemployment opportunities for others.",
+      "image_prompt": "Wide shot inside a bustling Ethiopian tailoring shop (suuqii): the Ethiopian Oromo shop owner standing beside racks of neatly hung tailored clothes while two young Ethiopian tailors work at black sewing machines in the background.",
+      "motion_prompt": "Slow pan right across the busy tailoring shop showing tailors working at their machines and racks of finished clothes.",
+      "ken_burns_preset": "pan_right_slow",
+      "seed": 1013
+    },
+    {
+      "shot_id": "shot_14",
+      "duration_s": 6.3,
+      "shot_size": "Wide hero shot",
+      "reason": "Delivers the generational legacy and closing moral of the heritage story.",
+      "narration_om": "Ijoolleen isaas milkaa'aniiru. Murtoon tokko, obsi fi abdii kutachuu dhiisuun jireenya nama tokkoo qofa osoo hin taane, egeree dhaloota guutuu jijjiiruu danda'a.",
+      "subtitle_en": "His children thrived too—proving one choice\nand perseverance can transform generations.",
+      "image_prompt": "Wide hero shot on a bustling paved Ethiopian town street: a prosperous 38-year-old Ethiopian Oromo businessman wearing a sharp tailored dark blazer over a crisp light-blue collared shirt standing proudly in front of his large, thriving modern tailoring and clothing store, flanked by his smiling grown educated son and daughter in smart attire, warm golden afternoon sunlight.",
+      "motion_prompt": "Slow majestic pull-back from Gammachuu and his grown children standing together in warm golden hour sunlight.",
+      "ken_burns_preset": "zoom_out_slow",
+      "seed": 1114
+    }
+  ]
+}

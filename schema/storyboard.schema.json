@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gammachuu Heritage Film Storyboard",
+  "type": "object",
+  "required": [
+    "project_id",
+    "title",
+    "language",
+    "target_duration_s",
+    "end_card",
+    "style_block",
+    "character_sheet",
+    "music",
+    "shots"
+  ],
+  "properties": {
+    "project_id": { "type": "string" },
+    "title": { "type": "string" },
+    "language": { "type": "string" },
+    "target_duration_s": { "type": "number", "minimum": 60, "maximum": 90 },
+    "end_card": {
+      "type": "object",
+      "required": ["duration_s", "text"],
+      "properties": {
+        "duration_s": { "type": "number", "minimum": 2, "maximum": 4 },
+        "text": { "type": "string" }
+      }
+    },
+    "style_block": { "type": "string", "minLength": 20 },
+    "character_sheet": {
+      "type": "object",
+      "required": ["protagonist_id", "description", "seed", "reference_image"],
+      "properties": {
+        "protagonist_id": { "type": "string" },
+        "description": { "type": "string" },
+        "seed": { "type": "integer" },
+        "reference_image": { "type": "string" }
+      }
+    },
+    "music": {
+      "type": "object",
+      "required": ["caption", "tempo_bpm", "key", "duration_s", "seed"],
+      "properties": {
+        "caption": { "type": "string" },
+        "tempo_bpm": { "type": "integer" },
+        "key": { "type": "string" },
+        "duration_s": { "type": "number" },
+        "seed": { "type": "integer" }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": [
+          "shot_id",
+          "duration_s",
+          "shot_size",
+          "reason",
+          "narration_om",
+          "subtitle_en",
+          "image_prompt",
+          "motion_prompt",
+          "ken_burns_preset",
+          "seed"
+        ],
+        "properties": {
+          "shot_id": { "type": "string", "pattern": "^shot_[0-9]{2}$" },
+          "duration_s": { "type": "number", "minimum": 3, "maximum": 12 },
+          "shot_size": { "type": "string" },
+          "reason": { "type": "string", "minLength": 15 },
+          "narration_om": { "type": "string", "minLength": 5 },
+          "subtitle_en": { "type": "string", "minLength": 5 },
+          "image_prompt": { "type": "string", "minLength": 20 },
+          "motion_prompt": { "type": "string", "minLength": 10 },
+          "ken_burns_preset": {
+            "type": "string",
+            "enum": ["zoom_in_slow", "zoom_out_slow", "pan_right_slow", "pan_left_slow"]
+          },
+          "seed": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.env
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+*.zip
+outputs/.cache/
+outputs/video/
+outputs/audio/*.wav
+outputs/audio/*.mp3
